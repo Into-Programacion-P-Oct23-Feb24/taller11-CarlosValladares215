@@ -31,6 +31,7 @@ public class Ejemplo2 {
     public static boolean buscarDato(int[] datos, int datoBuscar) {
         boolean valor = false;
         
+        // este ciclo repetitivo buscar valores que sean iguales
         for (int i = 0; i < datos.length; i++) { // 0<6 v // 1<6 v // 2<6 v // 3<6 v // 4<6 v // 5<6 v // 6<6
             
             if (datos[i] == datoBuscar) { // datos[0] == 30 // 10 == 30 // falso

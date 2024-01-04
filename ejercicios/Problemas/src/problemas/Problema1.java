@@ -17,10 +17,17 @@ public class Problema1 {
     public static void main(String[] args) {
         int[][] informacion = {{1, 2, 3}, {10, 20, 30}, {100, 200, 300}};
         imprimirDatos(informacion);
+        
     }
 
     public static void imprimirDatos(int[][] datos) {
-
+        for (int c = 0; c < datos.length; c++) {
+            for (int f = 0; f < datos[c].length; f++) {
+                if (datos[c][f] % 2 == 0) {
+                    System.out.printf("%d\n", datos[c][f]);
+                }
+            }
+        }
     }
 
 }
