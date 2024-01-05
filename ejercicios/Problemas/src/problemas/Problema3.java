@@ -51,7 +51,7 @@ public class Problema3 {
             }
         }
         valorCualtivativo = String.format("El promedio de las notas:"
-                + " %.0f, %.0f, %.0f %.0f es %s\n", n1, n2, n3, n4,
+                + " %.0f, %.0f, %.0f, %.0f es %s\n", n1, n2, n3, n4,
                  valorCualtivativo);
         return valorCualtivativo;
     }
